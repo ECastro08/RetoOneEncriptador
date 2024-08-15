@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/mobile.css" media="screen and (max-width:420px)">
+    <link rel="stylesheet" href="./styles/tablet.css" media="screen and (min-width:420px) and (max-width:950px)">
+    <title>Encriptador</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="./assets/Logo (1).png" alt="logo alura">
+        </div>
+    </header>
+    <main>
+        <div class="prompt-sec">
+            <h1>ENCRIPTADOR</h1>
+            <div class="prompt-img">
+                <img src="assets/Designer (2).jpeg">
+                <input class = "inputUser" type="text" placeholder="Escribe el texto a Encriptar">
+                <div class="tabs">
+                    <button onclick="encriptar();" id="btn-encriptar" type="text">Encriptar</button>
+                    <button onclick="desencriptar();" id="btn-desencriptar" type="text">Desencriptar</button>
+                </div>
+            </div>
+        </div>
+        <div class="encript-sec" id="encript-sec">
+            <div class="container-assets">
+                <img class="img-des" src="./assets/Muñeco.png" alt="muneco">
+                <h5 class="h5-desc">Ningun mensaje fue encontrado</h5>
+                <p class="outText">
+                    Ingresa el texto que desees encriptar o desencriptar.
+                </p>
+                <button onclick="copiar();" class="btn-copy" type="button">Copy</button>
+                <button onclick="shareWhatsapp();" class="btn-share" type="button">Share on Whatsapp</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="copyright">
+            <div class="separator"></div>
+            <p>
+            Desarrollado por ECastro08    
+            </p>
+            <div class="separator"></div>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+
+</html>

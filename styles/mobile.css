@@ -1,0 +1,82 @@
+
+header{
+    width: 100%;
+    height: 40px;
+}
+
+header .logo img{
+    width: 49px;
+    height: 49px;
+    margin:10px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+main .prompt-sec {
+
+    width: 100%;
+    margin: 0;
+}
+.prompt-sec h1{
+    color: #ccc;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 0;
+}
+.prompt-sec .prompt-img input {
+    width: 80%;
+    font-size: 1rem;
+}
+.prompt-sec .prompt-img .tabs {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.prompt-sec .prompt-img .tabs button {
+    width: 85%;
+}
+
+.encript-sec {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}   
+
+.encript-sec .container-assets {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 80%;
+    height: auto;
+    background: #171717;
+    border-radius: 40px;
+}
+
+.encript-sec .container-assets img {
+    display: none;
+}
+
+.encript-sec .container-assets h5{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2.4rem;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.encript-sec .container-assets p {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.encript-sec  .container-assets button {
+    align-self: center;
+    display: none;
+}

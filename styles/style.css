@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+p{
+    color: #ccc;
+}
+
+img{
+    object-fit: cover;
+}
+
+body{
+    background: #09090c;
+    font-family: "Roboto Mono", monospace;
+    height: 100vh;
+    max-width: 1000px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 2px;
+}
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+header .logo {
+    width: 20%;
+    height: 100px;
+    padding: 10px;
+}
+header .logo img{
+    width: 150px;
+    height: 100px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+footer .copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 20px;
+    background: #171717;
+    gap: 10px;
+    border-radius: 50px;
+}
+
+footer .copyright .separator{
+    width: 5px;
+    height: 5px;
+    background: #540b1f;
+    border-radius: 50%;
+}
+
+footer .copyright p{
+    font-size: 13px;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.prompt-sec{
+    width: 55%;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.prompt-sec h1{
+    color: #ccc;
+    font-size: 8rem;
+    line-height: 8rem;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.prompt-sec .prompt-img{
+    position: relative;
+}
+
+.prompt-sec .prompt-img img{
+    width: 100%;
+    height: 450px;
+    border-radius: 60px;
+    object-position: top center;
+    box-shadow: 0 -20px 40px rgba(0, 0, 0, 1);
+}
+
+.prompt-sec .prompt-img input{
+    width: 80%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 20px;
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    font-size: 1.6rem;
+    padding: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.prompt-sec .prompt-img input::placeholder{
+    color: #363030;
+    font-weight: 800;
+}
+
+.prompt-sec .prompt-img .tabs{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 50px;
+}
+
+.prompt-sec .prompt-img .tabs button{
+    width: 500px;
+    color: #fff;
+    background: #231f1c;
+    padding: 8px;
+    text-align: center;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    font-size: 1.6rem;
+}
+
+.prompt-sec .prompt-img .tabs button:hover{
+    color: #231f1c;
+    background: #a3e635;
+}
+
+/* segunda seccion (Visualizacion del texto encriptado)*/
+
+.encript-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    min-height: 400px;
+    padding: 10px;
+    top: 45px;
+    right: 10px;
+}
+
+.encript-sec .container-assets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 90%;
+    padding: 25px;
+    background: #171717;
+    border-radius: 40px;
+}
+
+.encript-sec  img {
+    width: 70%;
+}
+
+.encript-sec h5{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.encript-sec textarea {
+    text-align: center;
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+}
+
+.encript-sec button {
+    color: #fff;
+    background: #231f1c;
+    padding: 10px;
+    width: 100px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.encript-sec  button:hover{
+    color: #231f1c;
+    background: #a3e635;
+}
+
+.encript-sec button {
+    display: none;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+footer .copyright{
+    width: 100%;
+}
