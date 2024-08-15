@@ -9,6 +9,7 @@ Este proyecto consiste en una aplicación web que permite encriptar y desencript
 - Encriptación de textos utilizando reglas de sustitución.
 - Desencriptación de textos previamente encriptados.
 - Copia del texto encriptado/desencriptado al portapapeles.
+- sin restriccion al momento de escribir mayusculas o minusculas
 
 ## Reglas de Encriptación
 
